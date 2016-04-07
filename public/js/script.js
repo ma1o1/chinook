@@ -13,6 +13,8 @@ $(document).ready(function() {
     for (var i = 0; i < data.pages; i++)
       $('#pages').append(' <a href="/artists/' + (i + 1) + '"><button type="button" ' +
         'class="btn btn-default' + (i + 1 == page? ' selected': '') + '">' + (i + 1) + '</button></a> ');
+    
+    
   });
   
   /* requests update of artist's stars on click */
